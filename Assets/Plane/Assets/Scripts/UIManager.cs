@@ -11,7 +11,6 @@ public class UIManager : MonoBehaviour
 
     public void Start()
     {
-        Console.ReadKey();
         if (restartText == null)
         {
             Debug.LogError("restart text is null");
